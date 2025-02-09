@@ -5,6 +5,7 @@ Projekt przewiduje stworzenie kontenera na podstawie techniki szablonów C++ prz
 - *Solution* składa się przynajmniej z trzech projektów (modułów) Visual Studio (VS) – Rys 1.
 
 	![Rys.1 Struktura rozwiązania](assets/Rys1.png)
+
 	*Rys. 1 Struktura rozwiązania*
 
 - Moduł **Project_MFC** zabezpiecza obsługę GDI w postaci okna graficznego, menu, paneli narzędzi (toolbars), wierszy tekstowych oraz wszystkich niezbędnych dialogów dla wprowadzenia, modyfikacji, usunięcia danych oraz wszystkich operacji wymienionych w Rozdziale 2. Ten projekt generuje plik z rozszerzeniem `*.exe`.
@@ -16,12 +17,15 @@ Projekt przewiduje stworzenie kontenera na podstawie techniki szablonów C++ prz
 - Na Rys. 2 jest przedstawiony przykład aplikacji GDI dla obsługi tablicy dynamicznej przechowującej punkty na płaszczyźnie ze współrzędnymi x, y. Okno graficzne wyświetla te dane. Menu `Operate` zawiera dwie opcje (Rys. 3). Przy naciskaniu na `Input Data` otwiera się dialog (Rys. 4), który umożliwia dodawanie punktu, modyfikacje współrzędnych punktu oraz usunięcie punktu. Przy naciskaniu na `Graph Wind` powstaje dialog, sterujący opcjami wyświetlania danych na ekranie graficznym – promieniem punktu, jego kolorem, typem i wielkością ścianki, trybem linii łączących punkty itd.
 
 ![Rys. 2 Aplikacja GDI, która realizuje obsługę tablicy dynamicznej przechowującej punkty na płaszczyźnie ze współrzędnymi x, y](assets/Rys2.png)
+
 *Rys. 2 Aplikacja GDI, która realizuje obsługę tablicy dynamicznej przechowującej punkty na płaszczyźnie ze współrzędnymi x, y*
 
 ![Rys. 3 Opcje Operate](assets/Rys3.png)
+
 *Rys. 3 Opcje Operate*
 
 ![Rys. 4 Dialog „Input Data”](assets/Rys4.png)
+
 *Rys. 4 Dialog „Input Data”*
 
 ## Moduł danych
